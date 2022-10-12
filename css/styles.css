@@ -32,6 +32,16 @@ p {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff
+}
+
+.white-section {
+  background-color: #fff;
+}
 
 /* Navigation Bar */
 
@@ -56,16 +66,9 @@ p {
 
 /* Title */
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-  margin-bottom: 0px;
-  position: relative;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Features */
@@ -85,9 +88,7 @@ p {
 /* Testimonials */
 
 #testimonials {
-  padding: 7% 15%;
   background-color: #ef8172;
-  color: #fff
 }
 
 .testimonial-text {
@@ -114,12 +115,6 @@ p {
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-/* CTA */
-
-#cta {
-  background-color: #ff4c68;
 }
 
 
@@ -185,7 +180,7 @@ p {
 
 @media (max-width: 1028px) {
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
