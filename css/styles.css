@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,97 +26,10 @@ p {
   font-weight: bold;
 }
 
-/* Title */
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-  margin-bottom: 0px;
-  position: relative;
-}
-
-
-/* Features */
-
-#features {
-  text-align: center;
-  margin-bottom: 80px;
-  padding: 7% 15%;
-  background-color: white;
-  position: relative;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* Testimonials */
-
-#testimonials {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ef8172;
-  color: #fff
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-
-/* Press */
-
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-
-
-/* Pricing Section */
-
-#pricing {
-  margin: 100px 70px;
-  text-align: center;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* CTA */
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-#footer {
-  text-align: center;
-  margin: 7% 15%;
-}
-
-/* Footer */
-
-.footer-h3 {
-  color: #fff;
-  font-size: 3.5em;
-  line-height: 1.5;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.features-description {
-  color: #8f8f8f
-}
+/* Container Fluid*/
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 
@@ -139,6 +53,91 @@ p {
   font-size: 1.2rem;
   font-family: "Montserrat";
 }
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  margin-bottom: 0px;
+  position: relative;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Features */
+
+#features {
+  margin-bottom: 80px;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+
+/* Pricing Section */
+
+#pricing {
+  margin: 100px 70px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+}
+
+
+/* Footer */
+
+
+.footer-h3 {
+  color: #fff;
+  font-size: 3.5em;
+  line-height: 1.5;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.features-description {
+  color: #8f8f8f
+}
+
 
 /* Download Buttons */
 
@@ -180,6 +179,9 @@ p {
 .socialmedia-margin {
   margin: 8px;
 }
+
+
+/* Media Queries */
 
 @media (max-width: 1028px) {
 
